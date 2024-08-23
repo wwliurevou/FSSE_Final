@@ -41,7 +41,7 @@ export default function Navbar({ user }: { user: User | null }) {
                                 <Link href={"/"}>Upcoming Events</Link>
                             </li>
                             <li>
-                                <Link href={"/"}>Join Seller Squad</Link>
+                                <Link href={"/seller"}>Join Seller Squad</Link>
                             </li>
                             <li>
                                 <Link href={"/"}>About Us</Link>
