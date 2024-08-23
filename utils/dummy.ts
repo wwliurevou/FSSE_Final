@@ -6,19 +6,31 @@ export default {
             setTimeout(() => {
                 resolve([
                     {
-                        product_id: 1,
+                        id: 1,
                         name: "Lenovo 313A X-123",
-                        price: 5_229_000
+                        price: 5_229_000,
+                        description: "sv",
+                        stock: 1,
+                        created_at: "1",
+                        updated_at: "1",
                     },
                     {
-                        product_id: 2,
+                        id: 2,
                         name: "HP 123 Z000",
-                        price: 4_100_000
+                        price: 4_100_000,
+                        description: "sv",
+                        stock: 1,
+                        created_at: "1",
+                        updated_at: "1",
                     },
                     {
-                        product_id: 3,
+                        id: 3,
                         name: "Asus Y099",
-                        price: 5_999_000
+                        price: 5_999_000,
+                        description: "sv",
+                        stock: 1,
+                        created_at: "1",
+                        updated_at: "1",
                     },
                 ]);
             }, 500);

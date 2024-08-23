@@ -5,7 +5,7 @@ export default async function Seller() {
     const user = await auth()
 
     return <div className="bg-white shadow rounded p-6">
-        {!user?.seller && <p>You're not seller. Please register your account as seller here.</p>}
+        {!user?.seller && <p>You&apos;re not seller. Please register your account as seller here.</p>}
         {!user?.seller ? <SellerForm /> : <div>
             <div className="px-4 sm:px-0">
                 <h3 className="text-base font-semibold leading-7 text-gray-900">Seller Information</h3>
